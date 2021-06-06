@@ -2,7 +2,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:procalculator/provider/googleSignIn.dart';
 import 'package:procalculator/provider/neumorphicTheme.dart';
-import 'package:procalculator/screen/authentication.dart';
 import 'package:procalculator/screen/equationList.dart';
 import 'package:procalculator/screen/home.dart';
 import 'package:procalculator/screen/login.dart';
@@ -35,7 +34,6 @@ class MyApp extends StatelessWidget {
       home: SplashScreen(),
       routes: {
         SplashScreen.routeName: (context) => SplashScreen(),
-        AuthenticationScreen.routeName: (context) => AuthenticationScreen(),
         Login.routeName: (context) => Login(),
         CalculatorScreen.routeName: (context) => CalculatorScreen(),
         Home.routeName: (context) => Home(),
@@ -44,8 +42,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-//todo: implement authentication screen so that it toggles the screens between login and home regarding the login status done
-//todo: create home page
-//todo: create calculator page done
-//todo: solve provider problem
