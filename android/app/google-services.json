@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1063143445416",
+    "project_id": "pro-calculator-d9df5",
+    "storage_bucket": "pro-calculator-d9df5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063143445416:android:482897804359fd8c18839d",
+        "android_client_info": {
+          "package_name": "com.pramit.procalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063143445416-7gjrudd1h9bhk7r8bfqn7rce1k3o05u1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pramit.procalculator",
+            "certificate_hash": "3468c7029c6bad96da30246f30b607a35e107c53"
+          }
+        },
+        {
+          "client_id": "1063143445416-fr740aj0acl7e19f40gfgitvncpm5jcq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTUQfKafRC1CI__jJzK7I_4qJLDcGR8Ec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063143445416-fr740aj0acl7e19f40gfgitvncpm5jcq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
